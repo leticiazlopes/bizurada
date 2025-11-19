@@ -1,3 +1,4 @@
+package br.edu.ifpb.pweb2.bizurada.model;
 //package br.edu.ifpb.pweb2.biruzada;
 
 import java.io.Serializable;
