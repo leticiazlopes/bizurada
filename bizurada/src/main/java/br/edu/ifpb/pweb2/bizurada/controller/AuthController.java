@@ -47,7 +47,7 @@ public class AuthController {
     }
 
     private Usuario isValido(Usuario usuario) {
-        Usuario usuarioEncontrado = usuarioRepo.findByName(usuario.getNome());
+        Usuario usuarioEncontrado = usuarioRepo.findByName(usuario.getName());
         if (usuarioEncontrado != null) {
             return usuarioEncontrado;
         }
