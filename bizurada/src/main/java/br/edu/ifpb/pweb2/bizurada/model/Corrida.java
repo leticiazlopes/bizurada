@@ -19,8 +19,10 @@ public class Corrida implements Serializable {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_corrida;
+
+
 	private String titulo;
-	private String Descricao;
+	private String descricao;
 	private Number tempoSegundos;
 	private Boolean ativa;
 }
