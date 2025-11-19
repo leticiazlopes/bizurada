@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html th:="http://www.thymeleaf.org">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,11 @@
     <title>Bizurada</title>
 </head>
 <body>
-    <h1>Bem-vindo a Sala de Perguntas </h1>    
+    <h1>Bem-vindo a Sala de Perguntas </h1>  
+    <div style="margin-right: 5px">
+      <a th:href="@{/auth/logout}">
+        <button class="btn btn-outline-primary">Sair</button>
+      </a>
+    </div> 
 </body>
 </html>
