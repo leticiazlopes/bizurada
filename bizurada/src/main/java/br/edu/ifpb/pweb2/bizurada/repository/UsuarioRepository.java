@@ -7,5 +7,5 @@ import br.edu.ifpb.pweb2.bizurada.model.Usuario;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, String> {
-    Usuario findByName(String name);
+    Usuario findByName(String nome);
 }

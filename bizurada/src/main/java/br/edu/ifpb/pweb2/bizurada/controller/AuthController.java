@@ -31,7 +31,7 @@ public class AuthController {
             RedirectAttributes redirectAttts) {
         if ((usuario = this.isValido(usuario)) != null) {
             session.setAttribute("usuario", usuario);
-            model.setViewName("redirect:/home");
+            model.setViewName("redirect:/sala-de-perguntas");
         } else {
             redirectAttts.addFlashAttribute("mensagem", "Login inválidos!");
             model.setViewName("redirect:/auth");
